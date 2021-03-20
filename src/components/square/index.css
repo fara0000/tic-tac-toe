@@ -1,0 +1,16 @@
+.square__btn {
+    width: 100px;
+    height: 100px;
+    cursor: pointer;
+    border: 1px solid #222222;
+    display: flex;
+    outline: none;
+    font-size: 60px;
+    background: #fff;
+    align-items: center;
+    justify-content: center;
+}
+.square__btn:hover {
+    background: #f0f0f0;
+    transition: .3s all ease;
+}

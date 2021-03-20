@@ -1,0 +1,26 @@
+.game-wrapper {
+    width: 100%;
+    display: flex;
+    min-height: 100vh;
+    background: black;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.game-wrapper__info {
+    color: white;
+    font-size: 36px;
+    margin-top: 25px;
+}
+
+.restart__btn {
+    color: white;
+    width: 200px;
+    height: 35px;
+    cursor: pointer;
+    border: 1px solid white;
+    outline: none;
+    background: black;
+    font-size: larger;
+    margin-bottom: 25px;
+}
